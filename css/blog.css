@@ -140,3 +140,59 @@ a:hover {
         padding: 5px;
         border-bottom: 1px dotted #000000;
     }
+
+
+    body.dark-mode {
+        background-color: #121212;
+        color: #ffffff;
+    }
+    
+    .dark-mode .postagem {
+        background-color: #1e1e1e;
+        color: #ffffff;
+    }
+    
+    .dark-mode .conteudo-lateral {
+        background-color: #1e1e1e;
+        color: #ffffff;
+    }
+    
+    .dark-mode h2 {
+        color: #ffffff;
+    }
+    
+    .dark-mode h3 {
+        color: #ffffff;
+        background-color: #333;
+    }
+    
+    .dark-mode a {
+        color: #ffffff;
+    }
+    
+    .dark-mode #cabecalho a:hover {
+        color: #121212;
+        background-color: #ffffff;
+    }
+    
+    .dark-mode #btnDarkMode {
+        background-color: #ffffff;
+        color: #121212;
+    }
+
+    #btnDarkMode {
+        padding: 5px 10px;
+        background-color: white; /* Botão branco no modo claro */
+        color: black; /* Texto preto no modo claro */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s; /* Transição suave */
+        
+    }
+    
+    /* Estilo do botão no modo escuro */
+    body.dark-mode #btnDarkMode {
+        background-color: black; /* Botão preto no modo escuro */
+        color: white; /* Texto branco no modo escuro */
+    }
